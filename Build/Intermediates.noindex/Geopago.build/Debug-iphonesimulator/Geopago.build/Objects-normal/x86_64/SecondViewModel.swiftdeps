@@ -1,0 +1,293 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SecondViewModel"
+provides-nominal:
+- "7Geopago15SecondViewModelC"
+provides-member:
+- ["7Geopago15SecondViewModelC", ""]
+provides-dynamic-lookup:
+- "bind"
+- "cancellables"
+- "cardIssuers"
+- "currentPayerCosts"
+- "dataProvider"
+- "navigator"
+- "output"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AnyCancellable"
+- "AnyPublisher"
+- "AssignmentPrecedence"
+- "CardIssuer"
+- "DataProvider"
+- "FloatLiteralType"
+- "Installments"
+- "Int"
+- "IntegerLiteralType"
+- "Never"
+- "PassthroughSubject"
+- "SecondViewModel"
+- "SecondViewModelInput"
+- "SecondViewModelOutput"
+- "SecondViewModelType"
+- "Set"
+- "StepsNavigator"
+- !private "StringLiteralType"
+- !private "print"
+depends-member:
+- !private ["7Combine14AnyCancellableC", "cancel"]
+- !private ["7Combine14AnyCancellableC", "store"]
+- !private ["7Combine12AnyPublisherV", "sink"]
+- !private ["Sa", "first"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "first"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["7Combine11CancellableP", "cancel"]
+- !private ["7Combine11CancellableP", "store"]
+- !private ["7Geopago10CardIssuerV", "id"]
+- !private ["Sl", "first"]
+- !private ["Sl", "forEach"]
+- ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "sink"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "sink"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["7Geopago12DataProviderP", "purchase"]
+- !private ["7Geopago12DataProviderP", "store"]
+- ["Se", "PayerCosts"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "first"]
+- !private ["Se", "forEach"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "installments"]
+- !private ["Se", "payerCosts"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "subscript"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "first"]
+- !private ["SE", "forEach"]
+- ["SE", "init"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "first"]
+- !private ["SQ", "forEach"]
+- ["SQ", "init"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "store"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "cancel"]
+- !private ["SH", "first"]
+- !private ["SH", "forEach"]
+- ["SH", "init"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "store"]
+- !private ["SH", "subscript"]
+- ["7Geopago12InstallmentsV", "PayerCosts"]
+- !private ["7Geopago12InstallmentsV", "payerCosts"]
+- !private ["SM", "first"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sq", "callAsFunction"]
+- !private ["7Combine18PassthroughSubjectC", "eraseToAnyPublisher"]
+- ["7Combine18PassthroughSubjectC", "init"]
+- !private ["7Combine18PassthroughSubjectC", "send"]
+- !private ["7Geopago12InstallmentsV10PayerCostsV", "installments"]
+- !private ["7Geopago13PaymentMethodV", "id"]
+- !private ["7Combine9PublisherP", "eraseToAnyPublisher"]
+- ["7Combine9PublisherP", "init"]
+- !private ["7Combine9PublisherP", "send"]
+- !private ["7Combine9PublisherP", "sink"]
+- !private ["7Geopago8PurchaseC", "amount"]
+- !private ["7Geopago8PurchaseC", "cardIssuer"]
+- !private ["7Geopago8PurchaseC", "installments"]
+- !private ["7Geopago8PurchaseC", "paymentMethod"]
+- !private ["Sk", "first"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "first"]
+- !private ["Sm", "subscript"]
+- ["7Geopago15SecondViewModelC", "AnyCancellable"]
+- ["7Geopago15SecondViewModelC", "AnyPublisher"]
+- ["7Geopago15SecondViewModelC", "CardIssuer"]
+- ["7Geopago15SecondViewModelC", "DataProvider"]
+- ["7Geopago15SecondViewModelC", "Installments"]
+- ["7Geopago15SecondViewModelC", "Int"]
+- ["7Geopago15SecondViewModelC", "Never"]
+- ["7Geopago15SecondViewModelC", "PassthroughSubject"]
+- ["7Geopago15SecondViewModelC", "SecondViewModelInput"]
+- ["7Geopago15SecondViewModelC", "SecondViewModelOutput"]
+- ["7Geopago15SecondViewModelC", "Set"]
+- ["7Geopago15SecondViewModelC", "StepsNavigator"]
+- ["7Geopago15SecondViewModelC", "bind"]
+- !private ["7Geopago15SecondViewModelC", "cancellables"]
+- !private ["7Geopago15SecondViewModelC", "cardIssuers"]
+- !private ["7Geopago15SecondViewModelC", "currentPayerCosts"]
+- !private ["7Geopago15SecondViewModelC", "dataProvider"]
+- ["7Geopago15SecondViewModelC", "deinit"]
+- ["7Geopago15SecondViewModelC", "init"]
+- !private ["7Geopago15SecondViewModelC", "navigator"]
+- !private ["7Geopago15SecondViewModelC", "output"]
+- !private ["7Geopago15SecondViewModelC", "print"]
+- !private ["7Geopago20SecondViewModelInputV", "selectedCardIssuer"]
+- !private ["7Geopago20SecondViewModelInputV", "selectedInstallment"]
+- !private ["7Geopago21SecondViewModelOutputV", "init"]
+- ["7Geopago19SecondViewModelTypeP", "PassthroughSubject"]
+- !private ["7Geopago19SecondViewModelTypeP", "SecondViewModelOutput"]
+- ["7Geopago19SecondViewModelTypeP", "Set"]
+- ["7Geopago19SecondViewModelTypeP", ""]
+- ["7Geopago19SecondViewModelTypeP", "bind"]
+- !private ["7Geopago19SecondViewModelTypeP", "cancellables"]
+- !private ["7Geopago19SecondViewModelTypeP", "cardIssuers"]
+- !private ["7Geopago19SecondViewModelTypeP", "currentPayerCosts"]
+- !private ["7Geopago19SecondViewModelTypeP", "dataProvider"]
+- !private ["7Geopago19SecondViewModelTypeP", "navigator"]
+- !private ["7Geopago19SecondViewModelTypeP", "output"]
+- !private ["7Geopago19SecondViewModelTypeP", "print"]
+- !private ["ST", "first"]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "subscript"]
+- !private ["Sh", "forEach"]
+- ["Sh", "init"]
+- !private ["Sh", "removeAll"]
+- !private ["s10SetAlgebraP", "forEach"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "removeAll"]
+- !private ["7Geopago14StepsNavigatorP", "showFinalStep"]
+- !private ["7Geopago12StoreServiceP", "cardIssuers"]
+- !private ["7Geopago12StoreServiceP", "installments"]
+- !private ["7Combine7SubjectP", "eraseToAnyPublisher"]
+- ["7Combine7SubjectP", "init"]
+- !private ["7Combine7SubjectP", "send"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "7Combine14AnyCancellableC"
+- !private "7Combine12AnyPublisherV"
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "7Combine11CancellableP"
+- !private "7Geopago10CardIssuerV"
+- "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s34CustomPlaygroundDisplayConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "7Geopago12DataProviderP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "7Geopago12InstallmentsV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sq"
+- "7Combine18PassthroughSubjectC"
+- !private "7Geopago12InstallmentsV10PayerCostsV"
+- !private "7Geopago13PaymentMethodV"
+- "7Combine9PublisherP"
+- !private "7Geopago8PurchaseC"
+- !private "Sk"
+- !private "Sm"
+- "7Geopago15SecondViewModelC"
+- !private "7Geopago20SecondViewModelInputV"
+- !private "7Geopago21SecondViewModelOutputV"
+- "7Geopago19SecondViewModelTypeP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "7Geopago14StepsNavigatorP"
+- !private "7Geopago12StoreServiceP"
+- "7Combine7SubjectP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "42587ecec33a86fce543c82d576c7e18"

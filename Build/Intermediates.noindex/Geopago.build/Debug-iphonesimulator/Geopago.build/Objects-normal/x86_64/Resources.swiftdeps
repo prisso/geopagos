@@ -1,0 +1,262 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConnectionError"
+- "Resources"
+provides-nominal:
+- "7Geopago15ConnectionErrorO"
+- "7Geopago9ResourcesC"
+provides-member:
+- ["7Geopago15ConnectionErrorO", ""]
+- ["7Geopago9ResourcesC", ""]
+provides-dynamic-lookup:
+- "getData"
+- "loadImage"
+depends-top-level:
+- "AnyPublisher"
+- "AssignmentPrecedence"
+- "ConnectionError"
+- "Decodable"
+- !private "DispatchQueue"
+- "Error"
+- !private "JSONDecoder"
+- "Resources"
+- "ResourcesService"
+- !private "Result"
+- "String"
+- "UIImage"
+- !private "URL"
+- !private "URLSession"
+depends-member:
+- !private ["s7CVarArgP", "dataTaskPublisher"]
+- !private ["s7CVarArgP", "failure"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["7Combine10PublishersO5CatchV", "eraseToAnyPublisher"]
+- ["7Geopago15ConnectionErrorO", "Error"]
+- ["7Geopago15ConnectionErrorO", "_code"]
+- ["7Geopago15ConnectionErrorO", "_domain"]
+- ["7Geopago15ConnectionErrorO", "_getEmbeddedNSError"]
+- ["7Geopago15ConnectionErrorO", "_userInfo"]
+- ["7Geopago15ConnectionErrorO", "couldntDecode"]
+- ["7Geopago15ConnectionErrorO", "deinit"]
+- !private ["7Geopago15ConnectionErrorO", "failure"]
+- ["7Geopago15ConnectionErrorO", "notFound"]
+- ["7Geopago15ConnectionErrorO", "wrongURL"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTaskPublisher"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s17CustomReflectableP", "failure"]
+- !private ["s23CustomStringConvertibleP", "dataTaskPublisher"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["So12NSURLSessionC10FoundationE17DataTaskPublisherV", "mapError"]
+- !private ["Se", "failure"]
+- !private ["Se", "init"]
+- !private ["7Combine10PublishersO6DecodeV", "mapError"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["SE", "failure"]
+- !private ["SE", "init"]
+- !private ["SQ", "Publisher"]
+- !private ["SQ", "dataTaskPublisher"]
+- !private ["SQ", "eraseToAnyPublisher"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "global"]
+- !private ["SQ", "init"]
+- !private ["SQ", "shared"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "couldntDecode"]
+- !private ["s5ErrorP", "failure"]
+- !private ["s5ErrorP", "notFound"]
+- !private ["s5ErrorP", "wrongURL"]
+- !private ["s23ExpressibleByNilLiteralP", "failure"]
+- !private ["SH", "Publisher"]
+- !private ["SH", "dataTaskPublisher"]
+- !private ["SH", "failure"]
+- !private ["SH", "global"]
+- !private ["SH", "init"]
+- !private ["SH", "shared"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONDecoderC", "keyDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC19KeyDecodingStrategyO", "convertFromSnakeCase"]
+- !private ["7Combine10PublishersO3MapV", "catch"]
+- !private ["7Combine10PublishersO3MapV", "receive"]
+- !private ["7Combine10PublishersO8MapErrorV", "eraseToAnyPublisher"]
+- !private ["7Combine10PublishersO8MapErrorV", "map"]
+- !private ["7Combine10PublishersO10MapKeyPathV", "receive"]
+- !private ["So8NSCodingP", "failure"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So21NSItemProviderReadingP", "failure"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "failure"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "dataTaskPublisher"]
+- !private ["So8NSObjectC", "failure"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "dataTaskPublisher"]
+- !private ["So8NSObjectP", "failure"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So14NSSecureCodingP", "failure"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So9OS_objectC", "global"]
+- !private ["Sq", "failure"]
+- !private ["7Combine9PublisherP", "catch"]
+- !private ["7Combine9PublisherP", "decode"]
+- !private ["7Combine9PublisherP", "eraseToAnyPublisher"]
+- !private ["s6ResultO7CombineE9PublisherV", "eraseToAnyPublisher"]
+- !private ["7Combine9PublisherP", "init"]
+- !private ["s6ResultO7CombineE9PublisherV", "init"]
+- !private ["7Combine9PublisherP", "map"]
+- !private ["7Combine9PublisherP", "mapError"]
+- !private ["7Combine9PublisherP", "receive"]
+- !private ["7Combine10PublishersO9ReceiveOnV", "decode"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["7Geopago9ResourcesC", "AnyPublisher"]
+- ["7Geopago9ResourcesC", "ConnectionError"]
+- ["7Geopago9ResourcesC", "Decodable"]
+- !private ["7Geopago9ResourcesC", "DispatchQueue"]
+- !private ["7Geopago9ResourcesC", "JSONDecoder"]
+- !private ["7Geopago9ResourcesC", "Result"]
+- ["7Geopago9ResourcesC", "String"]
+- ["7Geopago9ResourcesC", "UIImage"]
+- !private ["7Geopago9ResourcesC", "URL"]
+- !private ["7Geopago9ResourcesC", "URLSession"]
+- ["7Geopago9ResourcesC", "deinit"]
+- ["7Geopago9ResourcesC", "getData"]
+- ["7Geopago9ResourcesC", "init"]
+- ["7Geopago9ResourcesC", "loadImage"]
+- !private ["7Geopago16ResourcesServiceP", "ConnectionError"]
+- !private ["7Geopago16ResourcesServiceP", "DispatchQueue"]
+- !private ["7Geopago16ResourcesServiceP", "JSONDecoder"]
+- !private ["7Geopago16ResourcesServiceP", "Result"]
+- !private ["7Geopago16ResourcesServiceP", "UIImage"]
+- !private ["7Geopago16ResourcesServiceP", "URL"]
+- !private ["7Geopago16ResourcesServiceP", "URLSession"]
+- ["7Geopago16ResourcesServiceP", ""]
+- ["7Geopago16ResourcesServiceP", "getData"]
+- ["7Geopago16ResourcesServiceP", "loadImage"]
+- !private ["s6ResultO", "Publisher"]
+- !private ["s6ResultO", "failure"]
+- !private ["7Combine9SchedulerP", "global"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelDecoderP", "keyDecodingStrategy"]
+- !private ["So29UIAccessibilityIdentificationP", "failure"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "failure"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "failure"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So12NSURLSessionC", "dataTaskPublisher"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "failure"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTaskPublisher"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "failure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTaskPublisher"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "failure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "global"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "failure"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "7Combine10PublishersO5CatchV"
+- "7Geopago15ConnectionErrorO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "So12NSURLSessionC10FoundationE17DataTaskPublisherV"
+- !private "Se"
+- !private "7Combine10PublishersO6DecodeV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONDecoderC19KeyDecodingStrategyO"
+- !private "7Combine10PublishersO3MapV"
+- !private "7Combine10PublishersO8MapErrorV"
+- !private "7Combine10PublishersO10MapKeyPathV"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "7Combine9PublisherP"
+- !private "s6ResultO7CombineE9PublisherV"
+- !private "7Combine9PublisherP"
+- !private "s6ResultO7CombineE9PublisherV"
+- !private "7Combine9PublisherP"
+- !private "7Combine10PublishersO9ReceiveOnV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "7Geopago9ResourcesC"
+- "7Geopago16ResourcesServiceP"
+- !private "s6ResultO"
+- !private "7Combine9SchedulerP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "10Foundation3URLV"
+- !private "So12NSURLSessionC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "acbb13b700102b1267b633a5aea24911"

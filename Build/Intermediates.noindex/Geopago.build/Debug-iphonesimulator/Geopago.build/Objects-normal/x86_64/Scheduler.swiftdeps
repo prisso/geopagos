@@ -1,0 +1,127 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Scheduler"
+provides-nominal:
+- "7Geopago9SchedulerC"
+provides-member:
+- ["7Geopago9SchedulerC", ""]
+provides-dynamic-lookup:
+- "backgroundWorkScheduler"
+- "mainScheduler"
+depends-top-level:
+- "AssignmentPrecedence"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "OperationQueue"
+- "QualityOfService"
+- "RunLoop"
+- "Scheduler"
+depends-member:
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "main"]
+- ["s7CVarArgP", "maxConcurrentOperationCount"]
+- ["s7CVarArgP", "qualityOfService"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "maxConcurrentOperationCount"]
+- ["s28CustomDebugStringConvertibleP", "qualityOfService"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", "maxConcurrentOperationCount"]
+- ["s23CustomStringConvertibleP", "qualityOfService"]
+- ["SQ", "init"]
+- ["SQ", "main"]
+- ["SQ", "maxConcurrentOperationCount"]
+- ["SQ", "qualityOfService"]
+- ["SQ", "userInitiated"]
+- ["SH", "init"]
+- ["SH", "main"]
+- ["SH", "maxConcurrentOperationCount"]
+- ["SH", "qualityOfService"]
+- ["SH", "userInitiated"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "maxConcurrentOperationCount"]
+- ["So8NSObjectC", "qualityOfService"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "maxConcurrentOperationCount"]
+- ["So8NSObjectP", "qualityOfService"]
+- ["So16NSOperationQueueC", "init"]
+- ["So16NSOperationQueueC", "maxConcurrentOperationCount"]
+- ["So16NSOperationQueueC", "qualityOfService"]
+- ["So19NSProgressReportingP", "init"]
+- ["So19NSProgressReportingP", "maxConcurrentOperationCount"]
+- ["So19NSProgressReportingP", "qualityOfService"]
+- ["So18NSQualityOfServiceV", "userInitiated"]
+- ["SY", "userInitiated"]
+- ["So9NSRunLoopC", "main"]
+- ["7Geopago9SchedulerC", "OperationQueue"]
+- ["7Geopago9SchedulerC", "QualityOfService"]
+- ["7Geopago9SchedulerC", "RunLoop"]
+- ["7Geopago9SchedulerC", "backgroundWorkScheduler"]
+- ["7Geopago9SchedulerC", "deinit"]
+- ["7Combine9SchedulerP", "init"]
+- ["7Geopago9SchedulerC", "init"]
+- ["7Combine9SchedulerP", "main"]
+- ["7Geopago9SchedulerC", "mainScheduler"]
+- ["7Combine9SchedulerP", "maxConcurrentOperationCount"]
+- ["7Combine9SchedulerP", "qualityOfService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "maxConcurrentOperationCount"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "qualityOfService"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maxConcurrentOperationCount"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "qualityOfService"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So16NSOperationQueueC"
+- "So19NSProgressReportingP"
+- "So18NSQualityOfServiceV"
+- "SY"
+- "So9NSRunLoopC"
+- "7Geopago9SchedulerC"
+- "7Combine9SchedulerP"
+- "7Geopago9SchedulerC"
+- "7Combine9SchedulerP"
+- "7Geopago9SchedulerC"
+- "7Combine9SchedulerP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8f2cb291a94e260019df199b4c3de453"

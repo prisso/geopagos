@@ -1,0 +1,285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaymentMethod"
+- "AdditionalInfo"
+- "PaymentType"
+provides-nominal:
+- "7Geopago13PaymentMethodV"
+- "7Geopago13PaymentMethodV8SettingsV"
+- "7Geopago13PaymentMethodV8SettingsV17CardNumberSettingV"
+- "7Geopago13PaymentMethodV8SettingsV10BinSettingV"
+- "7Geopago13PaymentMethodV8SettingsV15SecuritySettingV"
+- "7Geopago14AdditionalInfoO"
+- "7Geopago11PaymentTypeO"
+provides-member:
+- ["7Geopago13PaymentMethodV", ""]
+- ["7Geopago13PaymentMethodV8SettingsV", ""]
+- ["7Geopago13PaymentMethodV8SettingsV17CardNumberSettingV", ""]
+- ["7Geopago13PaymentMethodV8SettingsV10BinSettingV", ""]
+- ["7Geopago13PaymentMethodV8SettingsV15SecuritySettingV", ""]
+- ["7Geopago14AdditionalInfoO", ""]
+- ["7Geopago11PaymentTypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AdditionalInfo"
+- "CaseIterable"
+- "Decodable"
+- "Float"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "PaymentMethod"
+- "PaymentType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["7Geopago14AdditionalInfoO", "=="]
+- ["7Geopago14AdditionalInfoO", "RawValue"]
+- ["7Geopago14AdditionalInfoO", "_Default_RawValue"]
+- !private ["7Geopago14AdditionalInfoO", "_findStringSwitchCase"]
+- ["7Geopago14AdditionalInfoO", "_rawHashValue"]
+- ["7Geopago14AdditionalInfoO", "deinit"]
+- ["7Geopago14AdditionalInfoO", "hash"]
+- ["7Geopago14AdditionalInfoO", "hashValue"]
+- ["7Geopago14AdditionalInfoO", "init"]
+- ["7Geopago14AdditionalInfoO", "issuerId"]
+- ["7Geopago14AdditionalInfoO", "name"]
+- ["7Geopago14AdditionalInfoO", "number"]
+- ["7Geopago14AdditionalInfoO", "rawValue"]
+- ["7Geopago14AdditionalInfoO", "type"]
+- ["7Geopago13PaymentMethodV8SettingsV10BinSettingV", "String"]
+- ["7Geopago13PaymentMethodV8SettingsV10BinSettingV", "deinit"]
+- ["7Geopago13PaymentMethodV8SettingsV10BinSettingV", "init"]
+- ["7Geopago13PaymentMethodV8SettingsV10BinSettingV", "pattern"]
+- ["7Geopago13PaymentMethodV8SettingsV17CardNumberSettingV", "Int"]
+- ["7Geopago13PaymentMethodV8SettingsV17CardNumberSettingV", "deinit"]
+- ["7Geopago13PaymentMethodV8SettingsV17CardNumberSettingV", "init"]
+- ["7Geopago13PaymentMethodV8SettingsV17CardNumberSettingV", "length"]
+- ["s12CaseIterableP", "=="]
+- ["s12CaseIterableP", "AllCases"]
+- ["s12CaseIterableP", "RawValue"]
+- ["s12CaseIterableP", ""]
+- ["s12CaseIterableP", "_Default_AllCases"]
+- ["s12CaseIterableP", "_Default_RawValue"]
+- !private ["s12CaseIterableP", "_findStringSwitchCase"]
+- ["s12CaseIterableP", "_rawHashValue"]
+- ["s12CaseIterableP", "allCases"]
+- ["s12CaseIterableP", "credit"]
+- ["s12CaseIterableP", "debit"]
+- ["s12CaseIterableP", "hash"]
+- ["s12CaseIterableP", "hashValue"]
+- ["s12CaseIterableP", "init"]
+- ["s12CaseIterableP", "prepaid"]
+- ["s12CaseIterableP", "rawValue"]
+- ["s12CaseIterableP", "ticket"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- !private ["Se", "additionalInfoNeeded"]
+- !private ["Se", "bin"]
+- !private ["Se", "cardLocation"]
+- !private ["Se", "cardNumber"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "length"]
+- !private ["Se", "maxAllowedAmount"]
+- !private ["Se", "name"]
+- !private ["Se", "pattern"]
+- !private ["Se", "paymentTypeId"]
+- !private ["Se", "securityCode"]
+- !private ["Se", "settings"]
+- !private ["Se", "thumbnail"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "AllCases"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_AllCases"]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "allCases"]
+- ["SQ", "credit"]
+- ["SQ", "debit"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "prepaid"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- ["SQ", "ticket"]
+- ["SH", "=="]
+- ["SH", "AllCases"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_AllCases"]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "allCases"]
+- ["SH", "credit"]
+- ["SH", "debit"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "prepaid"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- ["SH", "ticket"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["7Geopago13PaymentMethodV", "Decodable"]
+- ["7Geopago13PaymentMethodV", "Float"]
+- ["7Geopago13PaymentMethodV", "Int"]
+- ["7Geopago13PaymentMethodV", "Settings"]
+- ["7Geopago13PaymentMethodV", "String"]
+- ["7Geopago13PaymentMethodV", "additionalInfoNeeded"]
+- ["7Geopago13PaymentMethodV", "deinit"]
+- ["7Geopago13PaymentMethodV", "id"]
+- ["7Geopago13PaymentMethodV", "init"]
+- ["7Geopago13PaymentMethodV", "maxAllowedAmount"]
+- ["7Geopago13PaymentMethodV", "name"]
+- ["7Geopago13PaymentMethodV", "paymentTypeId"]
+- ["7Geopago13PaymentMethodV", "settings"]
+- ["7Geopago13PaymentMethodV", "thumbnail"]
+- ["7Geopago11PaymentTypeO", "=="]
+- ["7Geopago11PaymentTypeO", "AllCases"]
+- ["7Geopago11PaymentTypeO", "RawValue"]
+- ["7Geopago11PaymentTypeO", "String"]
+- ["7Geopago11PaymentTypeO", "_Default_AllCases"]
+- ["7Geopago11PaymentTypeO", "_Default_RawValue"]
+- !private ["7Geopago11PaymentTypeO", "_findStringSwitchCase"]
+- ["7Geopago11PaymentTypeO", "_rawHashValue"]
+- ["7Geopago11PaymentTypeO", "all"]
+- ["7Geopago11PaymentTypeO", "allCases"]
+- ["7Geopago11PaymentTypeO", "credit"]
+- ["7Geopago11PaymentTypeO", "debit"]
+- ["7Geopago11PaymentTypeO", "deinit"]
+- ["7Geopago11PaymentTypeO", "description"]
+- ["7Geopago11PaymentTypeO", "hash"]
+- ["7Geopago11PaymentTypeO", "hashValue"]
+- ["7Geopago11PaymentTypeO", "init"]
+- ["7Geopago11PaymentTypeO", "prepaid"]
+- ["7Geopago11PaymentTypeO", "rawValue"]
+- ["7Geopago11PaymentTypeO", "ticket"]
+- ["SY", "=="]
+- ["SY", "AllCases"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_AllCases"]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "allCases"]
+- ["SY", "credit"]
+- ["SY", "debit"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "prepaid"]
+- ["SY", "rawValue"]
+- ["SY", "ticket"]
+- ["7Geopago13PaymentMethodV8SettingsV15SecuritySettingV", "Int"]
+- ["7Geopago13PaymentMethodV8SettingsV15SecuritySettingV", "String"]
+- ["7Geopago13PaymentMethodV8SettingsV15SecuritySettingV", "cardLocation"]
+- ["7Geopago13PaymentMethodV8SettingsV15SecuritySettingV", "deinit"]
+- ["7Geopago13PaymentMethodV8SettingsV15SecuritySettingV", "init"]
+- ["7Geopago13PaymentMethodV8SettingsV15SecuritySettingV", "length"]
+- ["7Geopago13PaymentMethodV8SettingsV", "BinSetting"]
+- ["7Geopago13PaymentMethodV8SettingsV", "CardNumberSetting"]
+- ["7Geopago13PaymentMethodV8SettingsV", "Decodable"]
+- ["7Geopago13PaymentMethodV8SettingsV", "Int"]
+- ["7Geopago13PaymentMethodV8SettingsV", "SecuritySetting"]
+- ["7Geopago13PaymentMethodV8SettingsV", "String"]
+- ["7Geopago13PaymentMethodV8SettingsV", "bin"]
+- ["7Geopago13PaymentMethodV8SettingsV", "cardNumber"]
+- ["7Geopago13PaymentMethodV8SettingsV", "deinit"]
+- ["7Geopago13PaymentMethodV8SettingsV", "init"]
+- ["7Geopago13PaymentMethodV8SettingsV", "securityCode"]
+depends-nominal:
+- "7Geopago14AdditionalInfoO"
+- "7Geopago13PaymentMethodV8SettingsV10BinSettingV"
+- "7Geopago13PaymentMethodV8SettingsV17CardNumberSettingV"
+- "s12CaseIterableP"
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "7Geopago13PaymentMethodV"
+- "7Geopago11PaymentTypeO"
+- "SY"
+- "7Geopago13PaymentMethodV8SettingsV15SecuritySettingV"
+- "7Geopago13PaymentMethodV8SettingsV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7098dbc36b9fe483369a9c31dec7795d"
